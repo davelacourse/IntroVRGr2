@@ -13,6 +13,8 @@ using UnityEngine.Video;
 [RequireComponent(typeof(VideoPlayer))]
 [RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(Renderer))]
+
+
 public class VideoScreen : MonoBehaviour
 {
     [Tooltip("Vidéos disponibles, lues dans l'ordre de la liste.")]
